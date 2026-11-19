@@ -1,0 +1,6 @@
+{
+  "name": "DarkForge Channel OS",
+  "description": "Estação local de inteligência editorial e gestão multi-canal para YouTube com arquitetura hexagonal, RLS ponta a ponta e estúdio 2.5D de agentes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

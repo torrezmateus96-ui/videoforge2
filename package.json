@@ -1,0 +1,26 @@
+{
+  "name": "darkforge-channel-os",
+  "private": true,
+  "version": "0.2.0",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=apps/web",
+    "build": "npm run build --workspace=apps/web",
+    "start": "npm run start --workspace=apps/web",
+    "lint": "npm run typecheck --workspace=apps/web",
+    "typecheck:web": "npm run typecheck --workspace=apps/web",
+    "test:studio": "npm run test:studio --workspace=apps/web"
+  },
+  "dependencies": {
+    "@google/genai": "^2.4.0",
+    "@types/three": "^0.187.0",
+    "lucide-react": "^0.546.0",
+    "three": "^0.187.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "typescript": "^5.7.0"
+  }
+}
